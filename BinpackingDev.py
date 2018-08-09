@@ -148,7 +148,7 @@ def db_connect():
 problems = getDBDataList('CALL spGetProblemIds();') 
 silent_mode = False    # use this variable to turn on/off appropriate messaging depending on student or instructor use
 filename_post = 'leaderboard.html'
-from binpacking import binpack
+from binpacking1 import binpack
 
 for problem_id in problems:
     bin_cap, items = db_get_data(problem_id)
