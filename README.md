@@ -8,3 +8,5 @@ Step:
 
 Note: 
 binpacking1.py contains the binpack function, which is already imported in BinpackingDev.py
+Note: BinpackingDev.py file provided by Dr. Bradley, my solution for function binpack is in binpacking1.py
+
