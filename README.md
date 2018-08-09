@@ -7,4 +7,4 @@ Step:
 2. run BinpackingDev.py
 
 Note: 
-binpacking.py contains the binpack function, which is already imported in BinpackingDev.py
+binpacking1.py contains the binpack function, which is already imported in BinpackingDev.py
