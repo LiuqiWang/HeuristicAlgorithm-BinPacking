@@ -84,53 +84,6 @@ def checkAllPoints(articles, bin_contents):
              bin_contents: this is a list containing keys (integers) of the items you want to include in the knapsack
                            The integers refer to keys in the items dictionary. 
    """
-        
-#    my_team_number_or_name = "lwang19"    # always return this variable as the first item
-#    bin_contents = []    # use this list document the article ids for the contents of 
-                         # each bin, the contents of each is to be listed in a sub-list
-    
-        
-    """ 
-    put your algorithm here 
-    """
-    # have to import the package in order to round up to get the min number of bins needed 
-#    from math import ceil 
-    # map articles dictionary to list of lists 
-#    item_list = [[k,v] for k,v in articles.items()]
-    # sort articles by volume large to small 
-#    j = lambda x:x[1]
-#    item_list.sort(key=j,reverse=True)
-#    item_keys = [item[0] for item in item_list]
-    ## define minimum bins required. 
-    # sum of total articles need to pack 
-#    t_vol = sum(x[1] for x in item_list)
-    # min required bins
-#    min_b = ceil(float(t_vol)/bin_cap)
-    
-    
-#    for i in range(len(item_keys)):
-#        t_vol =+ things[pack]          
-#        bin_contents.append(pack)    
-#    pack = [] #keep record of items in the current bin 
-#    load = 0.0 #the current volumn
-#    for i in range(len(item_keys)):
-#        if load <= bin_cap:
-#            pack_item = item_keys[i]
-#            load += articles[pack_item]
-#            if load <= bin_cap:
-#                pack.append(pack_item)
-#            elif load > bin_cap:
-#                bin_contents.append(pack)
-#                pack=[]
-#                load = 0.0
-#                pack_item = item_keys[i]
-#                load += articles[pack_item]
-#                pack.append(pack_item)
-#        if i==len(item_keys)-1:
-#            bin_contents.append(pack)
-        
-#    print(min_b)        
-#    return my_team_number_or_name, bin_contents       # use this return statement when you have items to load in the knapsack
 
 def getDBDataList(commandString):
     #cnx = mySQL.connect(user=mysql_user_name, passwd=mysql_password,
